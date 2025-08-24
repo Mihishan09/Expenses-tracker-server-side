@@ -3,7 +3,7 @@ Overview
 A small Express.js API that powers the Simple Expense Tracker. It provides CRUD endpoints for tasks (expenses) and persists data in MongoDB.
 
 Features
-- GET /tasks — list all tasks
+- GET /tasks — list all task
 - POST /tasks — create a new task
 - PUT /tasks/:id — update a task
 - DELETE /tasks/:id — delete a task
@@ -16,15 +16,19 @@ Tech stack
 - Mongoose for data modeling
 - Postman for testing
 
-
+API Endpoints 
+   o GET /tasks — list all tasks.
+   o POST /tasks — add new task.
+   o PUT /tasks/:id — update task.
+   o DELETE /tasks/:id — delete task.
 
 
 
 Run locally (quickstart)
 1. Clone:
-   **git clone https://github.com/Mihishan09/simple-expense-tracker-backend.git**
+   **git clone https://github.com/Mihishan09/Expenses-tracker-server-side.git**
 2. Install:
-   cd simple-expense-tracker-backend
+   cd expense-tracker-server-side 
    npm install
 3. Environment:
    Create a `.env` with:
